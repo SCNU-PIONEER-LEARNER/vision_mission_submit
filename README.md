@@ -40,9 +40,9 @@ eg：GitHub，coding，gitlab*
 
 ![](images/3.png)
 
-然后在终端中输入下列命令
+***然后在终端中输入下列命令,测试是否能够连接到GitHub***
 
->  ssh -T git@github.com\
+>  ssh -T git@github.com
 > 
 >  ***> Hi USERNAME! You\'ve successfully authenticated, but GitHub does***\
 >  ***\>not provide shell access.***
@@ -188,6 +188,7 @@ Request来让管理员整合你的代码到主分支中
 ![](images/12.png)
 
 ![](images/13.png)
+
 
 
 
