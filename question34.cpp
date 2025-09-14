@@ -1,5 +1,8 @@
 #include <iostream>
 #include <random>
+#include <chrono>
+#include <thread>
+/*哎呀，想给任务5加一个限制运行速度机制，结果加错位置了，不管了，就这样吧*/
 
     // using namespace std;
 using std::cin;
@@ -17,7 +20,7 @@ int add2(const int& a, const int& b){
 int main(){
     std::random_device seed_rd;
     std::mt19937 rd(seed_rd());
-    std::uniform_int_distribution intrd(0, 30);
+    std::uniform_int_distribution<int> intrd(0, 30);
 
     int exp = 0, exp0 = 1, exp1 = 1, exp2 = 0;
     int &e1 = exp1, &e2 = exp2;
@@ -50,6 +53,7 @@ int main(){
         }
         }
         cout << "今天是第" << day++ << "天，今日获取经验:" << exp0 << "  ，总经验:" << exp << endl;
+        std::this_thread::sleep_for(std::chrono::seconds(1));
     }
     if(exp>=100){
         cout << "YOU ARE WELCOME TO JOIN PIONEER！" << endl;

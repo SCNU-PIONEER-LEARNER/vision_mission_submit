@@ -1,5 +1,9 @@
 #include <iostream>
 #include <random>
+#include <chrono>
+#include <thread>
+#include "5.hpp"
+/********************************************注意：此段代码不会自动结束，请谨慎运行*****************************************************/
 
     // using namespace std;
 using std::cin;
@@ -17,10 +21,13 @@ int add2(const int& a, const int& b){
 int main(){
     std::random_device seed_rd;
     std::mt19937 rd(seed_rd());
-    std::uniform_int_distribution intrd(0, 30);
+    std::bernoulli_distribution boolrd(0.1);
+    std::uniform_int_distribution<int> intrd(0, 30);
 
     int exp = 0, exp0 = 1, exp1 = 1, exp2 = 0;
     int &e1 = exp1, &e2 = exp2;
+    int amts = 0, amtb = 0;
+    Bullet Bbullet(42,1), Sbullet(17,0.1);
     int day = 1;
     bool status = false;
 
@@ -50,16 +57,34 @@ int main(){
         }
         }
         cout << "今天是第" << day++ << "天，今日获取经验:" << exp0 << "  ，总经验:" << exp << endl;
+        std::this_thread::sleep_for(std::chrono::seconds(1));
+    
+    while(exp>=100){
+        //TODO:一次把弹丸获取完
+        switch (boolrd(rd))
+        {
+        case 0:
+        {
+            cout << "获得小弹丸，价格:" << Sbullet.printPrice() << "金币/枚，当前持有数量:" << ++amts << endl;
+            exp -= 100;
+            break;
+        }
+        case 1:
+        {
+            cout << "获得大弹丸，价格:" << Bbullet.printPrice() << "金币/枚，当前持有数量:" << ++amtb << endl;
+            exp -= 100;
+            break;
+        }
+        };
     }
-    if(exp>=100){
-        cout << "YOU ARE WELCOME TO JOIN PIONEER！" << endl;
     }
-    else{
-        cout << "error" << endl;
-    }
+    // else{
+    //     cout << "error" << endl;
+    // }
 
 
     /*测试结果：基本都30天左右，看一下时间，今天9月13日，就算三天打鱼两天晒网也来得及，事已至此先摆烂吧（不是，
      *没有真的在摆）*/
+   
     return 0;
 }
