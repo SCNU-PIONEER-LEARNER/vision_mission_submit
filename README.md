@@ -43,6 +43,7 @@ eg：GitHub，coding，gitlab*
 然后在终端中输入下列命令
 
 >  ssh -T git@github.com\
+> 
 >  ***> Hi USERNAME! You\'ve successfully authenticated, but GitHub does***\
 >  ***\>not provide shell access.***
 
@@ -58,7 +59,7 @@ eg：GitHub，coding，gitlab*
 > 先创建一个文件夹，用终端打开对本地仓库进行初始化
 
   -----------------------------------------------------------------------
-  >>git init ***进行初始化仓库***\
+  >git init ***进行初始化仓库***\
   -----------------------------------------------------------------------
 
 ![](images/4.png)
@@ -189,6 +190,7 @@ Request来让管理员整合你的代码到主分支中
 ![](images/12.png)
 
 ![](images/13.png)
+
 
 
 
