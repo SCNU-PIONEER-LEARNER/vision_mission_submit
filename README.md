@@ -1,12 +1,12 @@
-**git指北**
+# Git 指南 🚀
 
-**git介绍**
+## git介绍
 
 *Git
 是一个开源的分布式版本控制系统，用于敏捷高效地处理任何或小或大的项目。如果你无法理解，你可以将它看成把文件保存在云端的搬运工，帮你把文件搬到云端服务器
 eg：GitHub，coding，gitlab*
 
-**安装git**
+## 安装git
 
 我们要求在Ubuntu系统中安装git，请先下载git。
 
@@ -18,8 +18,8 @@ eg：GitHub，coding，gitlab*
 > ***安装好后重复第一步，检查是否安装完毕***
 
 
-**git配置**
-
+## git配置
+<!-- ============ 配置章节开始 ============ -->
 >  git config \--global user.name \"aaa\"
 >  ***\"aaa"中的内容为你的英文名，随便***\
 >  git config \--global user.email \"aa@qq.com\" ***换成你的邮箱***\
@@ -48,7 +48,7 @@ eg：GitHub，coding，gitlab*
 >  ***\>not provide shell access.***
 
 
-**使用git**
+## 使用git
 
 > **先在GitHub中建立自己的仓库**
 >
@@ -106,7 +106,7 @@ HEAD，它指向你最后一次提交的结果。
   ***对于这个问题csdn会推荐使用强制推送，但是这样治标不治本，还会导致更改记录丢失，所以极不推荐！***\
   git push -f origin master ***强制推送，不推荐！***
 
- 在这里可能又会出现报错
+在这里可能又会出现报错
 
 ![](images/9.png)
 
@@ -124,43 +124,43 @@ HEAD，它指向你最后一次提交的结果。
 
 ![](images/10.png)
 
-**把云端文件git到本地仓库**
+## 把云端文件git到本地仓库
 
 使用git clone可以直接把仓库中所有文件都克隆下来
 
 ![](images/11.png)
 
-**提交暑假任务**
+## 提交暑假任务
 
 首先可以连接到仓库
 
-  git remote add origin \<remote server\>\
-  ***步骤 2：创建特性分支***\
-  git checkout -b 分支名（一般为姓名拼音，eg：HuangPeiyue）\
-  
-  ***在当前文件夹下创建同名文件夹，并在下面完成任务***\
-  ***eg：路径为：./HuangPeiyue/task1/HelloWorld.cpp***\
-  
-  ***提交任务文件夹***\
-  git add HuangPeiyue/\
-  
-  ***提交说明***\
-  git commit -m \"\<commit\>\"\
-  
-  ***类型前缀：***\
-  ***feat: - 新功能/算法实现***\
-  ***fix: - bug修复***\
-  ***docs: - 文档更新***\
-  ***refactor: - 代码重构***\
-  
-  ***假如我完成了任务1.1***\
-  git commit -m \"feat: Finish task1.1\"\
-  git push origin HuangPeiyue\
-  
-  ***这样就完成了上传任务代码，创建分支不需要每次都创建***\
-  ***有问题及时在群里提出***
+>git remote add origin \<remote server\>\
+>***步骤 2：创建特性分支***\
+>git checkout -b 分支名（一般为姓名拼音，eg：HuangPeiyue）\
+>
+>***在当前文件夹下创建同名文件夹，并在下面完成任务***\
+>***eg：路径为：./HuangPeiyue/task1/HelloWorld.cpp***\
+>
+>***提交任务文件夹***\
+>git add HuangPeiyue/\
+>
+>***提交说明***\
+>git commit -m \"\<commit\>\"\
+>
+>***类型前缀：***\
+>***feat: - 新功能/算法实现***\
+>***fix: - bug修复***\
+>***docs: - 文档更新***\
+>***refactor: - 代码重构***\
+>
+>***假如我完成了任务1.1***\
+>git commit -m \"feat: Finish task1.1\"\
+>git push origin HuangPeiyue\
+>
+>***这样就完成了上传任务代码，创建分支不需要每次都创建***\
+>***有问题及时在群里提出***
 
-**Pull Request**
+## Pull Request
 
 提交完代码后，应该能在GitHub查看到改变，这时候需要提交Pull
 Request来让管理员整合你的代码到主分支中
@@ -174,6 +174,7 @@ Request来让管理员整合你的代码到主分支中
 点击 \"Create pull request\"
 
   -----------------------------------------------------------------------
+ 
   \## 算法实现说明\
   \
   \### 实现功能\
@@ -181,12 +182,13 @@ Request来让管理员整合你的代码到主分支中
   \- \[ \]\
   \
   \### 特别说明
-
+  
   -----------------------------------------------------------------------
 
 ![](images/12.png)
 
 ![](images/13.png)
+
 
 
 
