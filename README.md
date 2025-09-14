@@ -104,7 +104,7 @@ HEAD，它指向你最后一次提交的结果。
   ***拉取远程分支***\
   git pull origin master\
   ***对于这个问题csdn会推荐使用强制推送，但是这样治标不治本，还会导致更改记录丢失，所以极不推荐！***\
-  git push -f origin master //***强制推送，不推荐！***
+  git push -f origin master ***强制推送，不推荐！***
 
  在这里可能又会出现报错
 
@@ -190,6 +190,7 @@ Request来让管理员整合你的代码到主分支中
 ![](images/12.png)
 
 ![](images/13.png)
+
 
 
 
