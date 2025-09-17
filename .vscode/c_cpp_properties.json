@@ -10,13 +10,13 @@
                 "UNICODE",
                 "_UNICODE"
             ],
-            "compilerPath": "C:\\Visual Studio Code\\mingw64\\bin\\gcc.exe",
+            "compilerPath": "gcc.exe",
             "cStandard": "c17",
             "cppStandard": "gnu++14",
             "intelliSenseMode": "windows-gcc-x64"
         },
         {
-            "name": "C++",
+            "name": "C",
             "includePath": [
                 "${workspaceFolder}/**"
             ],

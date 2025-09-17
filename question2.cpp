@@ -14,13 +14,17 @@ int main(){
         cin >> fenshu;
     }
 
-    switch(fenshu>=60){
-        case 0:{
+    switch((fenshu>=60)+(fenshu>=0)+(fenshu>=100)){
+        case 1:{
             cout << "不合格" << endl;
             break;
         }
-        case 1:{
+        case 2:{
             cout << "合格" << endl;
+            break;
+        }
+        default:{
+            cout << "分数输入错误" << endl;
             break;
         }
     }
