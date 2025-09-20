@@ -1,5 +1,7 @@
 #include <iostream>
-using namespace std;
+// using namespace std;
+#include "cstd.hpp"
+
 int main()
 {
     int a, b, c, max;

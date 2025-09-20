@@ -1,0 +1,20 @@
+[
+{
+  "directory": "D:/Programs/VSCode/Code/C/C-learn/homework/line-a/vision_mission_submit/pioneer-intern-train-PIONEER_VISION_TASK-/build/bin",
+  "command": "D:\\Programs\\VSCode\\MinGW64-15.1.0\\bin\\g++.exe   -g -o CMakeFiles\\Training.dir\\main.cpp.obj -c D:\\Programs\\VSCode\\Code\\C\\C-learn\\homework\\line-a\\vision_mission_submit\\pioneer-intern-train-PIONEER_VISION_TASK-\\src\\main.cpp",
+  "file": "D:/Programs/VSCode/Code/C/C-learn/homework/line-a/vision_mission_submit/pioneer-intern-train-PIONEER_VISION_TASK-/src/main.cpp",
+  "output": "bin/CMakeFiles/Training.dir/main.cpp.obj"
+},
+{
+  "directory": "D:/Programs/VSCode/Code/C/C-learn/homework/line-a/vision_mission_submit/pioneer-intern-train-PIONEER_VISION_TASK-/build/bin",
+  "command": "D:\\Programs\\VSCode\\MinGW64-15.1.0\\bin\\g++.exe   -g -o CMakeFiles\\Training.dir\\Robot.cpp.obj -c D:\\Programs\\VSCode\\Code\\C\\C-learn\\homework\\line-a\\vision_mission_submit\\pioneer-intern-train-PIONEER_VISION_TASK-\\src\\Robot.cpp",
+  "file": "D:/Programs/VSCode/Code/C/C-learn/homework/line-a/vision_mission_submit/pioneer-intern-train-PIONEER_VISION_TASK-/src/Robot.cpp",
+  "output": "bin/CMakeFiles/Training.dir/Robot.cpp.obj"
+},
+{
+  "directory": "D:/Programs/VSCode/Code/C/C-learn/homework/line-a/vision_mission_submit/pioneer-intern-train-PIONEER_VISION_TASK-/build/bin",
+  "command": "D:\\Programs\\VSCode\\MinGW64-15.1.0\\bin\\g++.exe   -g -o CMakeFiles\\Training.dir\\Building.cpp.obj -c D:\\Programs\\VSCode\\Code\\C\\C-learn\\homework\\line-a\\vision_mission_submit\\pioneer-intern-train-PIONEER_VISION_TASK-\\src\\Building.cpp",
+  "file": "D:/Programs/VSCode/Code/C/C-learn/homework/line-a/vision_mission_submit/pioneer-intern-train-PIONEER_VISION_TASK-/src/Building.cpp",
+  "output": "bin/CMakeFiles/Training.dir/Building.cpp.obj"
+}
+]

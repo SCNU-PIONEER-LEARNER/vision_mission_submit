@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 
-#include "cstd.hpp"
+#include "../include/cstd.hpp"
 
 int main(){
     int maxn = 0;

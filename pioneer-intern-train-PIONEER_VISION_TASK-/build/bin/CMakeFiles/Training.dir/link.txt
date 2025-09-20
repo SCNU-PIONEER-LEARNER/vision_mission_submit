@@ -1,0 +1,3 @@
+D:\Programs\VSCode\cmake\bin\cmake.exe -E rm -f CMakeFiles\Training.dir/objects.a
+D:\Programs\VSCode\MinGW64-15.1.0\bin\ar.exe qc CMakeFiles\Training.dir/objects.a @CMakeFiles\Training.dir\objects1.rsp
+D:\Programs\VSCode\MinGW64-15.1.0\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\Training.dir/objects.a -Wl,--no-whole-archive -o Training.exe -Wl,--out-implib,libTraining.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Training.dir\linkLibs.rsp

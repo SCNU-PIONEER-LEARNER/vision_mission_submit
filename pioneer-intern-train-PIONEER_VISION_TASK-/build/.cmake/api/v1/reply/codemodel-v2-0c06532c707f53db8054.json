@@ -1,0 +1,76 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "4.1.1"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "bin",
+					"jsonFile" : "directory-bin-Debug-f42853a1af48eb01b9ed.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "4.1.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "Training",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "Training::@90a2315b7a9c97cd24d2",
+					"jsonFile" : "target-Training-Debug-8ad61c54fd0371d7654b.json",
+					"name" : "Training",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/Programs/VSCode/Code/C/C-learn/homework/line-a/vision_mission_submit/pioneer-intern-train-PIONEER_VISION_TASK-/build",
+		"source" : "D:/Programs/VSCode/Code/C/C-learn/homework/line-a/vision_mission_submit/pioneer-intern-train-PIONEER_VISION_TASK-"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 8
+	}
+}

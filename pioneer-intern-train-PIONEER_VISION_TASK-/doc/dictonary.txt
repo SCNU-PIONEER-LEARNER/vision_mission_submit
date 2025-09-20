@@ -1,0 +1,3 @@
+Guard       ->    n.哨兵
+Infantry    ->    n.步兵
+invalid     ->  adj.无效的

@@ -1,3 +1,5 @@
+#include "cstd.hpp"
+
 class Circle{
     private:
     int r; // unit : micro meter
@@ -24,6 +26,9 @@ class Bullet:protected Circle{
         float printPrice(void){
             return price;
         };
+        void Show(void){
+            cout << "弹丸类型：" << Circle::Rout() << "mm弹丸，价格：" << Bullet::printPrice() << "金币/枚" << endl;
+        }
             // protected:
 
     

@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 4.1.1)
+
+project(Training)
+
+set(SRC_LIST main.cpp Robot.cpp Building.cpp)
+
+
+add_subdirectory(src bin)
