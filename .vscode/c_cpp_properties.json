@@ -10,7 +10,7 @@
                 "UNICODE",
                 "_UNICODE"
             ],
-            "compilerPath": "C:\\Visual Studio Code\\mingw64\\bin\\gcc.exe",
+            "compilerPath": "C:/msys64/ucrt64/bin/g++.exe",
             "cStandard": "c17",
             "cppStandard": "gnu++14",
             "intelliSenseMode": "windows-gcc-x64"
