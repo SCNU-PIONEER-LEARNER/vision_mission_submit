@@ -28,7 +28,7 @@ private:
     int life;
     int attack;
     double hit_rate;
-    Building building_target;
 };
+
 
 #endif
